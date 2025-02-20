@@ -1,0 +1,1 @@
+std::vector<bool> vec; vec.push_back(true); vec[0] = false; //This will not compile because std::vector<bool> is a specialization that doesn't behave like other vectors.
